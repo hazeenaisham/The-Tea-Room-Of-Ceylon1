@@ -1,0 +1,364 @@
+
+
+/*Font setting applicable for all the main pages*/
+
+*{
+	color: white;
+	font-family:'Helvetica', sans-serif;
+}
+
+section{
+	display:inline-block;
+	width:100%;
+	background-color: floralwhite;
+	margin:0px;
+	position: sticky;
+}
+/*heading one*/
+h1 {
+	font-weight: bolder;
+	font-family: 'Bernard MT', sans-serif;
+	font-weight: unset;
+	font-size: 45px;
+	color: lightseagreen;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	word-spacing: 0.05em;
+	position: absolute;
+	top: 8px;
+	left: 410px;
+}
+/*sub heading*/
+h5{
+	line-height: 63px;
+	font-family:'Helvetica', sans-serif;
+	font-weight:unset;  
+	color:red; 
+	font-size: 1em;
+	position:absolute;
+	top:50px;
+	left:410px;
+}	
+/*Logo*/
+.logo img{
+	width:90px;
+	padding:18px 0px 15px 300px;
+	position: relative;
+	top:0;
+	left:0;  
+}
+
+.nav ul{
+  position:sticky;
+  list-style-type:none;
+  margin:0;
+  padding-left:500px;
+  overflow:hidden;
+  background-color: lightsalmon;
+  text-transform:uppercase; 
+}
+
+
+/*Navigation bar*/
+.nav li {
+  float: left;
+  
+}
+
+.nav li a {
+  display: block;
+  color:darkslategray;
+  text-align:left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Bahnschrift, sans-serif;
+  font-size:15px; 
+}
+
+
+.Box-1{
+	font-size:20px;
+}
+
+/*Background image*/
+body {
+	background-image: url("images/tea back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*Footer*/
+footer{
+    padding:20px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+	clear:both;
+	text-align:center;
+	font-family:'Helvetica', sans-serif;
+	background-color:lightyellow;
+	background-position:center; 
+	background-repeat:repeat-x;
+	line-height: 0.7em;
+	font-variant:small-caps; 
+}
+
+footer p {
+		color: black;
+		font-style: oblique;
+	}
+a{
+	text-decoration: unset;
+	color:black;
+}
+
+input{
+	color:black;
+}
+
+textarea{
+color:black;
+}
+
+/*Footer*/
+.info p{
+	font-family:'Helvetica', sans-serif;
+}
+
+.info img{
+	width:170px;
+	padding-left:5px; 
+}
+
+/*Information box in purchase here*/
+
+.info-1{
+	width:250px;
+	margin-left:20px;
+	color:lightgoldenrodyellow;
+}
+
+
+#ap {
+	padding:20px;
+}
+
+#ap label{
+	display:block; 
+	font-size:16px;
+	font-weight:bolder;
+	text-transform:unset;
+	font-family:'Helvetica', sans-serif;
+	padding-bottom:10px; 
+} 
+
+#ap input{
+	padding:8px;
+	width:100%;
+	margin-bottom:16px;
+	font-family:'Helvetica', sans-serif;
+	color:black;
+	
+}
+
+.leg1{
+	font-family:'Helvetica', sans-serif;
+	font-size:22px; 
+} 
+
+
+.survey_1{
+	font-family:'Helvetica', sans-serif;
+	font-size:14px;
+	line-height:1.5em;
+	font-weight:bold;
+	color: black;
+}
+
+/*Sumbit and reset buttons*/
+.submit-reset input{
+	width:12%;
+	height: 50px;
+	margin: 10px -30px 0px 40px;
+	background-color:white;
+}
+
+
+
+#Home_Heading2{
+	text-transform:uppercase;
+	font-family:'Helvetica', sans-serif;
+	font-size:46px; 
+	letter-spacing:0.08em; 
+	text-shadow:2px 2px #000000; 
+	color:red; 
+	padding:0px 0px 0px 100px; 
+	margin-bottom: 2px;
+}
+
+.container{
+	width:80%;
+	margin:auto; 
+}
+
+/*Home page three boxes*/
+
+.Block-1{
+	float: left;
+    width: 33.3%;
+    border: 1px solid white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    font-family:'Helvetica', sans-serif;
+    font-size:15px;  
+    line-height:1.4em; 
+    text-align: left;
+}
+
+
+
+
+.hrtable{
+	margin:0px 50px 38px 50px;
+	border:3px solid #000014;
+	width:1100px;
+	
+}
+.hrtable th,td{
+		color: black;
+}
+
+.hrtable th{
+	font: bold 18px Alegreya, sans-serif;
+	text-align: center;	
+	height: 50px;
+	background-color: lemonchiffon; 
+}
+
+.hrtable td{
+	font:15px sans-serif;
+	height: 30px;
+	background-color: antiquewhite; 
+}
+
+aside{
+	float:right;
+	width:25%;
+	border:3px solid white; 
+	padding: 15px 10px 10px 10px;
+    margin: 30px 0px 20px 10px;
+}
+
+.aside h4{
+	font:bold 20px sans-serif;
+	margin: 0px 0px 0px 0px;
+}
+
+.aside p{
+	font:15px sans-serif;
+	line-height:1.5em; 
+}
+
+
+
+#topic_h3 h3{
+	text-transform: uppercase;
+	font-family:Bahnschrift, sans-serif;
+	font-size:30px; 
+	letter-spacing:0.08em; 
+	text-shadow:2px 2px #000000; 
+	color: coral; 
+	padding:0px 0px 0px 15px; 
+	margin-bottom: 2px;
+}
+
+#topic_h3 ul{
+	font:16px Alegreya, sans-serif;
+	line-height:1.5em;
+}
+
+#topic_h3 p{
+	font-size:20px; 
+	color: whitesmoke;
+}
+	
+.hr{
+	margin: 10px 0px 30px 450px;
+	padding:0px 0px 0px 0px;
+}
+
+
+#orderlist_hr{
+	font:bold 25px "Alegreya Sans", sans-serif;
+	line-height: 1.5em;
+	color:black;
+}
+
+
+
+.adi{
+	padding-top:2px;
+}
+
+#myContainer {
+	width: 400px;
+	height: 400px;
+	position: relative;
+	background: blue;
+  }
+  
+  #myAnimation {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background: red;
+  }
+
+option{
+	color:black;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+	input[type=submit]:hover {
+		background-color: #45a049;
+	}
+
+/* Contact section*/
+
+.container {
+	border-radius: 5px;
+	background-color: none;
+	padding: 10px;
+}
+
+
+.column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+}
+
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
