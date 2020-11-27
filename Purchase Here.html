@@ -33,25 +33,103 @@
             </div>
         </section>
     </header>
-
-
-
-
-
-
-
-
-
-
-
-    <footer>
-        <p> <a href="mailto:thetearoom@ceylon.co.lk"> thetearoom@ceylon.co.lk</a></p>
-        <p>&#9993; 212 Park Street Avenue, Colombo, Sri Lanka</p>
-        <div class="info">
-            <p>Seek Our Tea Trails</p>
-            <img src="images/teamedia.png" alt="Media" />
-        </div>
-        <p class="cr">&#169; 2020 Hazeena Isham</p>
-    </footer>
-</body>
+  
+        <main>
+            <section id="CustomerDetails">
+                <h3>Customer Details</h3>
+                <div id="box">
+                    Customer Name  :  <input type="text" id="Name"><br><br>
+                    Customer Number : <input type="number" id="Number">
+                </div>
+            </section>
+            <section id="grid1">
+                <section id="Manufacturers">
+                    <h3>Manufacturers</h3>
+                    <div id="box">
+                        <select id="s1">
+                            <option value="Dilmah" selected>Dilmah</option>
+                            <option value="Jones">Jones</option>
+                            <option value="GeorgeSteuart">George Steuart</option>
+                            <option value="MalwatteValleyPlantations">Malwatte Valley Plantations</option>
+                            <option value="PrestigeCeylonTeas">Prestige Ceylon Teas</option>
+                            <option value="EmpireTeas">Empire Teas</option>
+                        </select>
+                    </div>
+                </section>
+                <section id="Size">
+                    <h3>Select a Size</h3>
+                    <div id="box">
+                        <select id="s2">
+                            <option value="Small" selected>Small</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
+                        </select>
+                    </div>
+                </section>
+            </section>
+            <section id="Package">
+                <h3>Packaging Type :</h3>
+                <div id="box">
+                    <section id="grid2">
+                        <p><img src="i/pp.jpg" alt="PaperPouches">&emsp; Pouches : <input type="radio" name="package" id="PaperPouches"></p>
+                        <p><img src="i/t.jpg" alt="Tins">&emsp; Tins : <input type="radio" name="package" id="Tins" checked></p>
+                        <p><img src="i/b.jpg" alt="Bags">&emsp; Bags : <input type="radio" name="package" id="Bags"></p>
+                    </section>
+                </div>
+            </section>
+            <section id="Extra">
+                <h3>Extras :</h3>
+                <div id="box">
+                    <section id="Extras">
+                        <p><img src="i/mug.jpg" alt="Mug">&emsp; Mug : &emsp;<input type="checkbox" id="Mug"></p>
+                        <p><img src="i/pin.jpg" alt="SilverPin">&emsp; Silver Pin : &emsp;<input type="checkbox" id="SilverPin"></p>
+                        <p><img src="i/ts.jpg" alt="WoodenSouvenir">&emsp; Wooden Souvenir : &emsp;<input type="checkbox" id="WoodenSouvenir"></p>
+                    </section>
+                </div>
+            </section>
+            <br>
+            <div id="buttons"><button id="AddToOrder">Add to Order</button>&emsp;<button id="PlaceOrder">Place Order</button>&emsp;<button id="AddToFav">Add To Favourites</button>&emsp;<button id="OrderFav">Order Favourite</button>&emsp;<button id="CheckLoyalty">Check Loyalty</button></div>
+            <br>
+            <div id="grid3">
+                <fieldset>
+                    <legend>Customer Details</legend>
+                    <p id="CN"></p>
+                    <p id="CNU"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Current Order</legend>
+                    <p id="CM"></p>
+                    <p id="CS"></p>
+                    <p id="CP"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Current Order Cost</legend>
+                    <p id="COC">0</p>
+                </fieldset>
+                <fieldset>
+                    <legend>Overall Order</legend>
+                    <p id="OO"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Overall Order Cost</legend>
+                    <p id="OOC">0</p>
+                </fieldset>
+                <fieldset>
+                    <legend>Loyalty Points</legend>
+                    <p id="LP"></p>
+                </fieldset>
+            </div>
+            <footer>
+                <p> <a href="mailto:thetearoom@ceylon.co.lk"> thetearoom@ceylon.co.lk</a></p>
+                <p>&#9993; 212 Park Street Avenue, Colombo, Sri Lanka</p>
+                <div class="info">
+                    <p>Seek Our Tea Trails</p>
+                    <img src="images/teamedia.png" alt="Media" />
+                </div>
+                <p class="cr">&#169; 2020 Hazeena Isham</p>
+            </footer>
+        </main>
+        <script src="h.js"></script>
+    </body>
 </html>
+        
